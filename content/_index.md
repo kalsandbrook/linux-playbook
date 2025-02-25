@@ -3,40 +3,19 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# The Cats@Night Linux Playbook
 
-{{% columns %}}
-## Astris ipse furtiva
+This website contains various tips, tricks and recommendations on using the different operating systems that [build upon the Linux kernel](https://devrant.com/rants/1051771/id-just-like-to-interject-for-a-moment-what-you-re-referring-to-as-linux-is-in-f).
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
-
-<--->
-
-## Suis quot vota
-
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{% /columns %}}
+The scope of this website will be to provide general information on common Linux concepts and paradigms to specific information on endorsed packages and their configuration. You'll also find instructions on installation or set-up of certain distributions or packages in ways that I recommend.
 
 
-## Tempora nisi nunc
+As things currently stand, this website is a very early draft and will be subject to extensive changes, removals and additions.
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
-
+| Content | State | Completeness |
+| ------- | ----- | ------------ |
+| [Useful Resources](./docs/Useful%20Resources.md) | Partial | 20% |
+| [Software Recommendations](./docs/Recommendations/CLI%20Tools.md) | Partial | 30% |
+| Installing Arch Guide | Pending | 0% |
+| Dotfiles 101 | Pending | 0% |
+| Structure of Linux | Pending | 0% |
