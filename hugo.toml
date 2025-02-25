@@ -1,7 +1,6 @@
 baseURL = 'https://catsatnight.com/linux'
 languageCode = 'en-gb'
 title = 'Cats@Night Linux Playbook'
-publishDir = '/var/www/catsatnight/linux'
 
 
 [markup]
