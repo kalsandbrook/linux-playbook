@@ -1,0 +1,88 @@
+format = """
+($username$hostname )\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$python\
+$jobs\
+$sudo\
+$cmd_duration\
+$character"""
+
+# Add empty lines between commands
+  add_newline = false
+
+# Use a single line prompt
+  [line_break]
+  disabled = true
+
+  [username]
+  format = "[$user]($style)"
+  style_user = "bright-green bold"
+  style_root = "bright-yellow bold"
+
+# Show username even when not root/changed/SSH
+  show_always = true
+
+  [hostname]
+  format = "[@$hostname]($style)"
+  style = "bright-green bold"
+
+# Show hostname only when SSH
+  ssh_only = false
+
+  [directory]
+  format = "[$path ]($style)"
+  style = "blue bold"
+  truncation_length = 5
+  truncate_to_repo = true
+  truncation_symbol = ".../"
+
+  [git_branch]
+  format = "[$symbol$branch(:$remote_branch)]($style) "
+  style = "yellow bold"
+  symbol = ""
+
+  [git_status]
+  format = """[\
+($conflicted )\
+($stashed )\
+($deleted )\
+($renamed )\
+($modified )\
+($staged )\
+($untracked )\
+($diverged )\
+($ahead )\
+($behind )\
+($up_to_date )\
+]($style)"""
+  style = "yellow"
+  conflicted = "conflicts"
+  ahead = "ahead"
+  behind = "behind"
+  diverged = "diverged"
+  up_to_date = ""
+  untracked = "untracked"
+  stashed = "stashed"
+  modified = "modified"
+  staged = "staged"
+  renamed = "renamed"
+  deleted = "deleted"
+
+  [sudo]
+  format = "[$symbol ]($style)"
+  style = "bold purple"
+  symbol = "sudo"
+
+# Disable showing if sudo credentials are cached
+  disabled = true
+
+  [cmd_duration]
+  min_time = 5_000
+  format = 'took [$duration](bold yellow) '
+
+
+  [python]
+  pyenv_version_name = false
