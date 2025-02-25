@@ -2,8 +2,6 @@ baseURL = 'https://linux.catsatnight.com/'
 languageCode = 'en-gb'
 title = 'Cats@Night Linux Playbook'
 
-theme = ["hugo-admonitions"]
-
 [markup]
 [markup.goldmark.renderer]
   unsafe = true
