@@ -1,3 +1,12 @@
+---
+author: "Kal Sandbrook"
+date: 2025-02-25
+title: Useful Resources
+weight: 1
+---
+
+# Useful Resources
+
 A collection of useful resources, tutorials and information on various Linux subjects.
 
 ## man pages
@@ -6,7 +15,7 @@ The `man` command is probably the most important command for any Linux system. U
 
 The sections are as follows:
 
-| N   | Section Title                                                                                      |
+| #   | Section Title                                                                                      |
 | --- | -------------------------------------------------------------------------------------------------- |
 | 1   | Executable programs or shell commands                                                              |
 | 2   | System calls (functions provided by the kernel)                                                    |
@@ -29,10 +38,13 @@ Finally, `man -f [page]` can be used to to print a short description of a page.
 
 ## The ArchWiki
 
->[!important]
->Even though information on the ArchWiki is generally specific to the Arch Linux distribution, many of its articles on specific packages and utilities can prove valuable to those on other distributions.
->
->However, approach any commands and filepaths provided with caution.
+{{% hint warning %}}
+**Consider**:
+
+Even though information on the ArchWiki is generally specific to the Arch Linux distribution, many of its articles on specific packages and utilities can prove valuable to those on other distributions.
+
+However, approach any commands and filepaths provided with caution.
+{{% /hint %}}
 
 [The Arch Linux Wiki](https://wiki.archlinux.org)
 
