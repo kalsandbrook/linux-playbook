@@ -13,7 +13,7 @@ path = 'github.com/alex-shpak/hugo-book'
 
 # (Optional) Set Google Analytics if you use it to track your website.
 # Always put it on the top of the configuration file, otherwise it won't work
-googleAnalytics = "UA-XXXXXXXXX-X"
+#googleAnalytics = "UA-XXXXXXXXX-X"
 
 # (Optional) If you provide a Disqus shortname, comments will be enabled on
 # all pages.
@@ -50,7 +50,7 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  BookRepo = 'https://github.com/kalsandbrook/linux-playbook'
 
   # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
   # type.
