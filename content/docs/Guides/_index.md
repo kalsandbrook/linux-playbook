@@ -1,4 +1,4 @@
 ---
-title: Guides (TBA)
+title: Guides
 weight: 20
 ---
