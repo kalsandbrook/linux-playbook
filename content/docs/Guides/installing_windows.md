@@ -79,6 +79,9 @@ This is because Windows creates a 500MB recovery partition at the end of it's pr
 3. Manually search for your GPU (as well as CPU), then click submit.
 4. Download the given drivers and install them.
     - **NOTE:** Adrenalin Edition is designed for general consumers; Pro Edition is designed for digital creative work.
+    
+    
+Optional: [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer), to reduce some of the bloat installed with AMD Drivers.
 
 {{% /tab %}}
 {{% tab "NVIDIA" %}}
